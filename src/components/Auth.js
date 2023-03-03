@@ -10,8 +10,8 @@ const Auth = () => {
   const dispatch = useDispatch()
   const [inputs, setInputs] = useState({
     name: '',
-    email: 'rajesh@gmail.com',
-    password: 'rajesh123'
+    email: '',
+    password: ''
   })
   const [isSignup, setIsSignup] = useState(false)
 
